@@ -94,6 +94,7 @@ function Detail() {
                             style={{ width: 60, height: 60 }}
                             src="https://s3img.vcdn.vn/123phim/2021/01/bhd-star-bitexco-16105952137769.png"
                             className="w-14"
+                            alt="123"
                           />
                           <div className="ml-3">
                             <p className="font-bold">{cumRap.tenCumRap}</p>

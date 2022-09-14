@@ -23,6 +23,7 @@
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
     "slick-carousel": "^1.8.1",
+    "surge": "^0.23.1",
     "sweetalert2": "^11.4.29",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
@@ -31,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy":"sh ./deploy-surge.sh"
   },
   "eslintConfig": {
     "extends": [

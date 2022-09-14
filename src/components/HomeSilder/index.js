@@ -24,7 +24,7 @@ const movies = [
     id: 9174,
     title: "Curella",
     movieDemo: movie1,
-    trailerLink: "https://www.youtube.com/embed/hNCmb-4oXJA",
+    trailerLink: "https://www.youtube.com/embed/gmRKv7n2If8",
     danhGia: 8,
   },
   {
