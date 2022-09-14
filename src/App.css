@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+  transition: all 0.3s;
+  --tw-ring-color:transparent !important;
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+
+
+ul {
+  list-style: none;
+  margin-bottom: 0 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.ant-carousel .slick-dots {
+  margin-left: 0 !important;
+}
+
+.slick-list .slick-track {
+  margin-right: 0 !important;
+}
+
+.slick-prev:before, .slick-next:before {
+   color:#753BBD !important;
+   font-size:2rem !important;
+ 
+  
+} 
+
+@media screen and (max-width: 720px){
+  .slick-next {
+    display: none!important;
   }
+  
+}
+.slick-prev {
+  transform: translate(-80px, -50%) !important;
+  left: 40px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+:root {
+  --color-main1: #753BBD;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

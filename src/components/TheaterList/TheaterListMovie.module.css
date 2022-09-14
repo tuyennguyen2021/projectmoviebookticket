@@ -1,0 +1,30 @@
+.homeMenuscss {
+    border: 1px solid #c1c1c1;
+}
+.homeMenuscss :global .ant-tabs-ink-bar {
+    background-color: red;
+    width: 16px;
+}
+.homeMenuscss :global .ant-tabs-tab {
+    opacity: 0.5;
+    border-bottom: 1px solid #ccc;
+}
+.homeMenuscss :global .ant-tabs-tab:hover {
+    color: inherit;
+}
+.homeMenuscss :global .ant-tabs-tab-active {
+    opacity: 1;
+}
+.homeMenuscss :global .ant-tabs-tab-active h5 {
+    font-weight: 700;
+}
+.homeMenuscss :global .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #949494;
+}
+.homeMenuscss :global .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fb4226;
+}
+.homeMenuscss :global .ant-tabs-left +
+.ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0;
+}

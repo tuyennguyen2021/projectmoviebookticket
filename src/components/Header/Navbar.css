@@ -1,0 +1,197 @@
+.login-div {
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    right: -500px;
+    width: 400px;
+    height: 45%;
+    z-index: 10000;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.4)
+
+}
+
+ .menu-div {
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    left: -500px;
+    width: 400px;
+    height: 45%;
+    z-index: 10000;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.4)
+
+}
+
+
+
+.logindichuyen, .profiledichuyen, .updateinfodichuyen, .updatepassworddichuyen {
+    right: 0 !important;
+}
+
+.menudichuyen{
+    left: 0 !important;
+}
+
+.login-div::before, .profile-div::before, .updateinfo-div::before, .updatepassword-div::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    top:0;
+    left: 0%;
+    background-image: url(../../assets/images/backgroundBook.jpg);
+  
+}
+
+.menu-div::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    top:0;
+    right: 0%;
+    background-image: url(../../assets/images/backgroundBook.jpg);
+}
+
+.menu-div::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: 0;
+    background: url(../../assets/images/pattern.jpg);
+    opacity: 0.13;
+}
+.login-div:after, .profile-div::after, .updateinfo-div::after, .updatepassword-div::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: url(../../assets/images/pattern.jpg);
+    opacity: 0.13;
+}
+.login-div_close{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 30px;
+    color:#ffffff;
+    cursor: pointer;
+    z-index: 10001;
+
+}
+
+.menu-div_close{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 30px;
+    color:#ffffff;
+    cursor: pointer;
+    z-index: 10001;
+}
+.login-div_full, .profile-div_full, .updateinfo-div_full, .updatepassword-div_full {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding:30px 60px;
+    z-index: 1;
+}
+
+.menu-div_full {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding:30px 20px;
+    z-index: 1;
+}
+
+.menu-div_full ul li a{
+    position: relative;
+}
+
+.menu-div_full ul li a::after {
+    content:"";
+    display: block;
+    position: absolute;
+    left:0%;
+    height: 5px;
+    width: 0%;
+    transition: 0.3s;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+   
+}
+
+.menu-div_full ul li a:hover::after{
+    width:100%;
+}
+
+.profile-div {
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    right: -500px;
+    width: 400px;
+    height: 45%;
+    z-index: 10000;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.4)
+}
+.profile-div_close {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 30px;
+    color:#ffffff;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+
+.updateinfo-div {
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    right: -500px;
+    width: 400px;
+    height: 45%;
+    z-index: 10000;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.4)
+}
+.updateinfo-div_close {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 30px;
+    color:#ffffff;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+.updatepassword-div{
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    right: -500px;
+    width: 400px;
+    height: 45%;
+    z-index: 10000;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.4)
+}
+
+.updatepassword-div_close{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 30px;
+    color:#ffffff;
+    cursor: pointer;
+    z-index: 10001;
+
+}
+
+

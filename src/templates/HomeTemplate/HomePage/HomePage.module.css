@@ -1,0 +1,36 @@
+
+
+.slickHomecss :global .ant-tabs-nav-list {
+    color :white;
+    font-weight: 300;
+  }
+  
+  .slickHomecss :global .ant-tabs{
+    margin: 20px auto !important;
+  }
+  
+
+  
+  .slickHomecss :global .ant-tabs-tab.ant-tabs-tab-active {
+      border-bottom: 2px solid var(--color-main1);
+      z-index: 2;
+    }
+  
+    .slickHomecss :global .ant-tabs-tab-btn {
+      font-size: 20px ;
+    }
+  
+    .slickHomecss :global .ant-tabs-tab-btn:hover {
+      color: var(--color-main1) ;
+      scale: 1.1;
+    }
+  
+    
+    .slickHomecss :global .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      color: var(--color-main1);
+    }
+  
+    .slickHomecss :global .ant-tabs-ink-bar {
+      height: 10px;
+      background: var(--color-main1);
+    }

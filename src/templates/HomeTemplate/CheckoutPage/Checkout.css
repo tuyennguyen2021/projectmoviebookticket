@@ -1,0 +1,68 @@
+.ghe {
+    width:32px;
+    height:32px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:10px;
+    background-color: rgb(123, 122, 122);
+    color:#fff;
+  }
+
+  .gheDaDat {
+    background-color: rgb(232,76,76);
+    cursor: no-drop;
+  }
+
+  .gheDangDat {
+    background-color: rgb(37, 174, 37)!important;
+  }
+
+  .gheVip {
+    background-color: rgb(211, 141, 12);
+  }
+  /* duoc dat by tyn */
+  .gheDaDuocDat {
+    background-color: blueviolet;
+    color:#fff;
+  }
+
+  .ant-steps-item-title{
+    color: white !important;
+  }
+
+  .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: var(--color-main1) !important;
+  }
+
+  .ant-steps-item-process .ant-steps-item-icon {
+    border:none !important
+  }
+
+
+  .steps-action .xacNhan {
+    background-color: var(--color-main1) !important;
+    border:none !important;
+    color: white !important;
+    font-weight: 900;
+    
+    
+   
+  }
+
+  .steps-action .xacNhan:hover {
+    color:white;
+   
+  }
+
+  .steps-action .chonLai:hover {
+    color:black;
+  }
+
+  .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after, .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after, .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after  {
+    background-color:white !important;
+  }
+
+
+
+
