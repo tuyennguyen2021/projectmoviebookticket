@@ -20,7 +20,7 @@ function Banner() {
 
   useEffect(() => {
     dispatch(getBannerAction());
-  }, []);
+  }, [dispatch]);
 
   const renderImgBanner = () => {
     return arrImg.map((item, index) => {
