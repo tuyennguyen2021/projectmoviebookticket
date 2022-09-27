@@ -54,7 +54,7 @@ export const dangKyAction = (thongTinDangKy, navigate) => {
 
       if (result.data.statusCode === 200) {
         Swal.fire({
-          title: "Đăng Ký thành công!!",
+          title: "Đăng Ký thành công!!!",
           icon: "success",
           confirmButtonText: "đăng nhập ngay",
         });
