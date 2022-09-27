@@ -35,12 +35,13 @@ export const dangNhapAction = (thongTinDangNhap, navigate) => {
         navigate(window.location.reload(), { replace: true });
       }
     } catch (errors) {
-      Swal.fire({
+      await Swal.fire({
         title: "Có lỗi xảy ra!!!",
         text: errors.response.data.content,
         icon: "error",
         confirmButtonText: "đã hiểu",
       });
+      await dispatch(hideLoadingAction);
     }
   };
 };
@@ -61,12 +62,13 @@ export const dangKyAction = (thongTinDangKy, navigate) => {
         navigate("/", { replace: true });
       }
     } catch (error) {
-      Swal.fire({
+      await Swal.fire({
         title: "có lỗi xảy ra!!!",
         text: error.response.data.content,
         icon: "error",
         confirmButtonText: "đã hiểu",
       });
+      await dispatch(hideLoadingAction);
     }
   };
 };
